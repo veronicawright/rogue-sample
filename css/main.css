@@ -1,0 +1,167 @@
+/***** BASE STYLES *****/
+
+body {
+	color: #000000; /***black***/
+    font-family: 'montserrat', sans-serif;
+    width: 1200px;
+}
+
+span {
+	color: #77a466; /** green **/
+}
+
+.full-width {
+	width: 1200px
+}
+.third-width {
+	width: 400px
+}
+
+/******** TOP *********/
+
+.top {
+	font-weight: 700;
+	text-transform: uppercase;
+
+}
+
+a {
+	color: #000000; /***black***/
+	text-decoration: none;
+}
+
+h1 {
+	float: left;
+	font-size: 30px;
+	height: 30px;
+	margin: 0;
+	padding: 40px 20px;
+}
+
+nav {
+	float: right;
+	height: 30px;
+	margin: 0;
+	padding: 30px 0px 40px 0px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+	color: #77a466; /** green **/
+   	font-size: 14px;
+   	line-height: 23px;
+   	text-decoration: none;
+  	padding-right: 25px;
+ }
+
+/******** MAIN *********/
+
+.columns #menu {
+	overflow: auto;
+}
+
+img {
+	width: 1160px;
+}
+
+#locations p, .columns p {
+	line-height: 25px;
+	font-size: 16px;
+}
+
+#locations h3 {
+	font-size: 14px;
+}
+
+#middle h2, #locations h2, #menu h2 {
+	color: #77a466; /** green **/
+	font-size: 18px;
+	margin: 30px 0;
+}
+
+#menu, #locations, #gallery, #reviews, #content  {
+	float: left;
+	margin : 30px;
+	text-align: center;
+	width: 1200px;
+}
+ #menu p{
+	color: #77a466; /** green **/
+ }
+
+#middle {
+	padding: 0 20px;
+}
+
+
+#middle h2, h3 {
+	text-transform: uppercase;
+}
+
+.columns h3, .container h3 {
+	font-size: 12px;
+}
+
+.columns p, .container p {
+	margin: 30px 0;
+}
+
+.columns div  {
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;height: 212px;
+	float: left;
+	margin: 30px 0 30px 0;
+	padding: 20px 20px 20px 0px;
+	width: 340px;
+}
+
+.columns div  {
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;height: 212px;
+}
+
+.columns #specials {
+	border-right: 1px solid #cccccc;
+	color: #77a466; /** green **/
+}
+
+.columns #contact {
+	border-left: 1px solid #cccccc;
+	padding-left: 30px;
+}
+
+.columns #main-reviews {
+	padding-left: 30px;
+}
+
+.container .third-width  {
+	float: left;
+	margin: 0;
+	padding: 0px 30px 0px 30px;
+	width: 340px;
+}
+
+.container img {
+	height: 600px;
+	width: 400px;
+	float: left;
+}
+
+/****** FOOTER *********/
+
+footer {
+	clear: both;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 25px;
+	margin: 30px;
+	text-align: center;
+} 
+
+footer span{
+	font-family: 'Dancing Script';
+}
+
